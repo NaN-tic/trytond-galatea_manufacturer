@@ -1,0 +1,80 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:galatea.website,manufacturers:"
+msgid "Manufacturers"
+msgstr "Fabricantes"
+
+msgctxt "field:galatea.website.manufacturer,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:galatea.website.manufacturer,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:galatea.website.manufacturer,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:galatea.website.manufacturer,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:galatea.website.manufacturer,party:"
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+msgctxt "field:galatea.website.manufacturer,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:galatea.website.manufacturer,slug:"
+msgid "slug"
+msgstr "slug"
+
+msgctxt "field:galatea.website.manufacturer,website:"
+msgid "Website"
+msgstr "Sitio Web"
+
+msgctxt "field:galatea.website.manufacturer,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:galatea.website.manufacturer,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "help:galatea.website.manufacturer,description:"
+msgid ""
+"You could write wiki markup to create html content. Formats text following "
+"the MediaWiki (http://meta.wikimedia.org/wiki/Help:Editing) syntax."
+msgstr ""
+"Puede escribir etiquetas wiki para el formateo del texto. Para la chuleta de"
+" las etiquetas puede consultar a MediaWiki "
+"(http://meta.wikimedia.org/wiki/Help:Editing)."
+
+msgctxt "help:galatea.website.manufacturer,slug:"
+msgid "Cannonical uri."
+msgstr "Cannonical uri."
+
+msgctxt "model:galatea.website.manufacturer,name:"
+msgid "Galatea Web Site Manufacturer"
+msgstr "Galatea Sitio Web Fabricante"
+
+msgctxt "model:ir.action,name:act_website_manufacturer_form"
+msgid "Manufacturers"
+msgstr "Fabricantes"
+
+msgctxt "model:ir.ui.menu,name:menu_website_manufacturer_form"
+msgid "Manufacturers"
+msgstr "Fabricantes"
+
+msgctxt "view:galatea.website.manufacturer:"
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+msgctxt "view:galatea.website:"
+msgid "Manufacturers"
+msgstr "Fabricantes"

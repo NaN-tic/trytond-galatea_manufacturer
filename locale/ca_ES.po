@@ -1,0 +1,80 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:galatea.website,manufacturers:"
+msgid "Manufacturers"
+msgstr "Fabricants"
+
+msgctxt "field:galatea.website.manufacturer,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:galatea.website.manufacturer,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:galatea.website.manufacturer,description:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "field:galatea.website.manufacturer,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:galatea.website.manufacturer,party:"
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+msgctxt "field:galatea.website.manufacturer,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:galatea.website.manufacturer,slug:"
+msgid "slug"
+msgstr "slug"
+
+msgctxt "field:galatea.website.manufacturer,website:"
+msgid "Website"
+msgstr "Lloc Web"
+
+msgctxt "field:galatea.website.manufacturer,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:galatea.website.manufacturer,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "help:galatea.website.manufacturer,description:"
+msgid ""
+"You could write wiki markup to create html content. Formats text following "
+"the MediaWiki (http://meta.wikimedia.org/wiki/Help:Editing) syntax."
+msgstr ""
+"Pot escriure amb els tags de wiki per formatejar contingut HTML. Pot "
+"consultar la xuleta a MediaWiki "
+"(http://meta.wikimedia.org/wiki/Help:Editing)."
+
+msgctxt "help:galatea.website.manufacturer,slug:"
+msgid "Cannonical uri."
+msgstr "Cannonical uri."
+
+msgctxt "model:galatea.website.manufacturer,name:"
+msgid "Galatea Web Site Manufacturer"
+msgstr "Galatea Lloc Web Fabricant"
+
+msgctxt "model:ir.action,name:act_website_manufacturer_form"
+msgid "Manufacturers"
+msgstr "Fabricants"
+
+msgctxt "model:ir.ui.menu,name:menu_website_manufacturer_form"
+msgid "Manufacturers"
+msgstr "Fabricants"
+
+msgctxt "view:galatea.website.manufacturer:"
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+msgctxt "view:galatea.website:"
+msgid "Manufacturers"
+msgstr "Fabricants"

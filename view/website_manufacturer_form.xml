@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part galatea_manufacturer module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<form string="Manufacturer">
+    <label name="party"/>
+    <field name="party"/>
+    <label name="slug"/>
+    <field name="slug"/>
+    <label name="website"/>
+    <field name="website"/>
+    <separator name="description" colspan="4"/>
+    <field name="description" colspan="4"/>
+</form>

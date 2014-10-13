@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!-- This file is part galatea_manufacturer module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!-- Website Manufacturer -->
+        <record model="ir.ui.view" id="website_manufacturer_view_form">
+            <field name="model">galatea.website.manufacturer</field>
+            <field name="type">form</field>
+            <field name="name">website_manufacturer_form</field>
+        </record>
+        <record model="ir.ui.view" id="website_manufacturer_view_tree">
+            <field name="model">galatea.website.manufacturer</field>
+            <field name="type">tree</field>
+            <field name="name">website_manufacturer_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_website_manufacturer_form">
+            <field name="name">Manufacturers</field>
+            <field name="res_model">galatea.website.manufacturer</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_website_manufacturer_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="website_manufacturer_view_tree"/>
+            <field name="act_window" ref="act_website_manufacturer_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_website_manufacturer_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="website_manufacturer_view_form"/>
+            <field name="act_window" ref="act_website_manufacturer_form"/>
+        </record>
+        <menuitem id="menu_website_manufacturer_form" action="act_website_manufacturer_form" parent="galatea.menu_website_form"/>
+
+        <record model="ir.model.access" id="access_galatea_website_manufacturer">
+            <field name="model" search="[('model', '=', 'galatea.website')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_galatea_admin_galatea_website_manufacturer">
+            <field name="model" search="[('model', '=', 'galatea.website')]"/>
+            <field name="group" ref="galatea.group_galatea_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_galatea_galatea_website_manufacturer">
+            <field name="model" search="[('model', '=', 'galatea.website')]"/>
+            <field name="group" ref="galatea.group_galatea"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <!-- Website -->
+        <record model="ir.ui.view" id="website_view_form">
+            <field name="model">galatea.website</field>
+            <field name="inherit" ref="galatea.website_view_form"/>
+            <field name="name">website_form</field> 
+        </record>
+    </data>
+</tryton>
