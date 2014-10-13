@@ -4,11 +4,6 @@
 from trytond.model import ModelSQL, ModelView, fields
 from trytond.pool import Pool, PoolMeta
 from .tools import slugify
-from mimetypes import guess_type, guess_extension
-import base64
-import os
-
-_MIME_TYPES = ['image/jpeg', 'image/png']
 
 __all__ = ['GalateaWebSiteManufacturer', 'GalateaWebSite']
 __metaclass__ = PoolMeta
