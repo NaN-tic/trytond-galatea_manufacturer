@@ -1,4 +1,4 @@
 Galatea Manufacturer Module
 ###########################
 
-Flask Manufacturer App integrated in Tryton
+Manufacturer management related with Galatea Web Sites
