@@ -36,7 +36,7 @@ msgstr "slug"
 
 msgctxt "field:galatea.website.manufacturer,website:"
 msgid "Website"
-msgstr "Sitio Web"
+msgstr "Sitio web"
 
 msgctxt "field:galatea.website.manufacturer,write_date:"
 msgid "Write Date"
