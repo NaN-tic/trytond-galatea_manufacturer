@@ -37,10 +37,8 @@ class GalateaWebSiteManufacturer(ModelSQL, ModelView):
 
     @fields.depends('party', 'slug')
     def on_change_party(self):
-        res = {}
         if self.party and not self.slug:
-            res['slug'] = slugify(self.party.name)
-        return res
+            self.slug = slugify(self.party.name)
 
     @classmethod
     def copy(cls, manufacturers, default=None):
