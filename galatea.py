@@ -6,7 +6,6 @@ from trytond.pool import Pool, PoolMeta
 from .tools import slugify
 
 __all__ = ['GalateaWebSiteManufacturer', 'GalateaWebSite']
-__metaclass__ = PoolMeta
 
 
 class GalateaWebSiteManufacturer(ModelSQL, ModelView):
@@ -53,6 +52,7 @@ class GalateaWebSiteManufacturer(ModelSQL, ModelView):
 
 
 class GalateaWebSite:
+    __metaclass__ = PoolMeta
     __name__ = "galatea.website"
     manufacturers = fields.One2Many('galatea.website.manufacturer', 'website',
         'Manufacturers')
