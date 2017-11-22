@@ -14,8 +14,9 @@ class GalateaWebSiteManufacturer(ModelSQL, ModelView):
     _rec_name = 'party'
     website = fields.Many2One('galatea.website', 'Website', ondelete='CASCADE',
         required=True, select=True)
-    party = fields.Many2One('party.party', 'Manufacturer', ondelete='CASCADE',
-        required=True, domain=[('manufacturer', '=', True)])
+    party = fields.Many2One('party.party', 'Manufacturer',
+        'website_manufacturer', ondelete='CASCADE', required=True,
+        domain=[('manufacturer', '=', True)])
     slug = fields.Char('slug', required=True,
         help='Cannonical uri.')
     description = fields.Text('Description', translate=True,
